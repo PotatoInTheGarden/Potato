@@ -94,6 +94,10 @@ input[type="submit"] {
   background-color: #f0f0f0;
 }
 
+.input-box {
+    background-color: #f0f0f0!important; 
+}
+
 h2 {
   font-family: Garamond, Times, serif;
   color: black; /*#b29772;*/
