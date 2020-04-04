@@ -1,0 +1,176 @@
+* {
+margin: 0;
+padding: 0;
+border: 0;
+box-sizing: border-box;
+width: 100%;
+overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"); /* only needed once */
+
+:-moz-any(#content,#appcontent) browser{
+ margin-right:-17px!important;
+ overflow-y:scroll;
+ margin-bottom:-17px!important;
+ overflow-x:scroll;
+}
+
+iframe {
+  width:0;
+  height:0;
+}
+
+.grid-container {
+  display: grid;
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+}
+
+.grid-container-2 {
+  width: auto;
+  height: auto;
+  background-color: white;
+}
+
+.main {
+  background-color: white;
+  text-align: center;
+  padding: 10vh 5vw 10vh 5vw;
+  overflow: visible;
+  z-index: 1;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.potato-icon {
+  width: 200px;
+  height: auto;
+  align: center;
+}
+
+#box {
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: auto;
+  width: auto;
+  padding: 2em;
+  color:white;
+  text-align: center;
+  overflow: visible;
+}
+
+.form {
+  width: 100%;
+  padding: 0 10%;
+}
+
+textarea {
+  width: 80%;
+  padding: 5px 10px;
+  font-size: 16px;
+  background: #f0f0f0;
+}
+
+input[type="submit"] {
+  font-family: Garamond, Times, serif;
+  font-size: 1.05em;
+  display: block;
+  margin: 10px auto;
+  padding: 5px 10px;
+  width: auto;
+  color: #383838;
+  background-color: #f0f0f0;
+}
+
+h2 {
+  font-family: Garamond, Times, serif;
+  color: black; /*#b29772;*/
+  letter-spacing: 8px;
+}
+
+h3 {
+  font-family: Garamond, Times, serif;
+  color: #383838; /*#4a4a4a;*/
+  font-weight: 100;
+}
+
+
+/***************************
+    Google Table CSS
+***************************/
+
+.google-visualization-table-tr-even,
+.google-visualization-table-tr-even td,
+.google-visualization-table-tr-even-nonstrict {
+  background-color: white !important;
+  font-family: Times, serif;
+  font-size: 25px !important;
+  color: black !important;
+  text-align: justify !important;
+}
+
+.google-visualization-table-tr-odd,
+.google-visualization-table-tr-odd td,
+.google-visualization-table-tr-odd-nonstrict {
+  background-color: white !important;
+  font-family: Times, serif;
+  font-size: 25px !important;
+  color: black !important;
+  text-align: justify !important;
+}
+
+.google-visualization-table-tr-sel,
+.google-visualization-table-tr-sel td,
+.google-visualization-table-tr-sel-nonstrict {
+  background-color: white !important;
+  font-family: Times, serif;
+  font-size: 25px !important;
+  color: black !important;
+  text-align: justify !important;
+}
+
+.google-visualization-table-tr-over,
+.google-visualization-table-tr-over td,
+.google-visualization-table-tr-over-nonstrict {
+  background-color: white !important;
+  font-family: Times, serif;
+  font-size: 25px !important;
+  color: black !important;
+  text-align: justify !important;
+}
+
+.google-visualization-table-td,
+.google-visualization-table-th {
+  border: 1px solid white !important;
+  font-family: Times, serif;
+  font-size: 25px !important;
+  color: black !important;
+  text-align: justify !important;
+}
+
+.google-visualization-table-tr-head,
+.google-visualization-table-tr-head td,
+.google-visualization-table-tr-head-nonstrict {
+  background-color: white !important;
+  background-image: none !important;
+  font-family: Times, serif;
+  font-size: 25px !important;
+  color: black !important;
+  text-align: justify !important;
+}
+
+.google-visualization-table .gradient {
+  background-image: none !important;
+}
