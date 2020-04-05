@@ -58,7 +58,7 @@ h3 {
 .google-visualization-table-tr-even-nonstrict {
   background-color: white !important;
   font-family: Times, serif;
-  font-size: 1em !important;
+  font-size: 1.1em !important;
   color: black !important;
   text-align: justify !important;
 }
@@ -68,7 +68,7 @@ h3 {
 .google-visualization-table-tr-odd-nonstrict {
   background-color: white !important;
   font-family: Times, serif;
-  font-size: 1em !important;
+  font-size: 1.1em !important;
   color: black !important;
   text-align: justify !important;
 }
@@ -78,7 +78,7 @@ h3 {
 .google-visualization-table-tr-sel-nonstrict {
   background-color: white !important;
   font-family: Times, serif;
-  font-size: 1em !important;
+  font-size: 1.1em !important;
   color: black !important;
   text-align: justify !important;
 }
@@ -88,7 +88,7 @@ h3 {
 .google-visualization-table-tr-over-nonstrict {
   background-color: white !important;
   font-family: Times, serif;
-  font-size: 1em !important;
+  font-size: 1.1em !important;
   color: black !important;
   text-align: justify !important;
 }
@@ -97,7 +97,7 @@ h3 {
 .google-visualization-table-th {
   border: 1px solid white !important;
   font-family: Times, serif;
-  font-size: 1em !important;
+  font-size: 1.1em !important;
   color: black !important;
   text-align: justify !important;
 }
@@ -108,7 +108,7 @@ h3 {
   background-color: white !important;
   background-image: none !important;
   font-family: Times, serif;
-  font-size: 1em !important;
+  font-size: 1.1em !important;
   color: black !important;
   text-align: justify !important;
 }
